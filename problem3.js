@@ -14,7 +14,7 @@ const people = [
 ]
 
 // Using Reduce:
-const newReduce = people.reduce( (acc,obj) => acc+obj.age , 0);
+const newReduce = people.reduce( (acc , obj) => acc + obj.age , 0);
 console.log(newReduce);
 
 
